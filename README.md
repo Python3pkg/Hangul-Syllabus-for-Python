@@ -13,3 +13,8 @@ http://en.wikipedia.org/wiki/Hangul_Syllables
 >>> hangul.total
 [u'\uac00', u'\uac01', u'\uac02', u'\uac03', u'\uac04', u'\uac05', u'\uac06', u'\uac07', u'\uac08', u'\uac09', ...]
 ```
+
+```
+>>> len(hangul.total)
+7152
+```
