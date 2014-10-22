@@ -5,16 +5,25 @@ http://en.wikipedia.org/wiki/Hangul_Syllables
 ```
 >>> import hangul
 >>> hangul.row
-[u'AC0', u'AC1', u'AC2', u'AC3', u'AC4', u'AC5', u'AC6', u'AC7', u'AC8', u'AC9', u'ACA', u'ACB', u'ACC', u'ACD', u'ACE', u'ACF', u'AD0', u'AD1', u'AD2', u'AD3', u'AD4', u'AD5', u'AD6', u'AD7', u'AD8', u'AD9', u'ADA', u'ADB', u'ADC', u'ADD', u'ADE', u'ADF', u'AE0', u'AE1', u'AE2', u'AE3', u'AE4', u'AE5', u'AE6', u'AE7', u'AE8', u'AE9', u'AEA', u'AEB', u'AEC', u'AED', u'AEE', u'AEF', u'AF0', u'AF1', u'AF2', u'AF3', u'AF4', u'AF5', u'AF6', u'AF7', u'AF8', u'AF9', u'AFA', u'AFB', u'AFC', u'AFD', u'AFE', u'AFF', u'B00', u'B01', u'B02', u'B03', u'B04', u'B05', u'B06', u'B07', u'B08', u'B09', u'B0A', u'B0B', u'B0C', u'B0D', u'B0E', u'B0F', u'B10', u'B11', u'B12', u'B13', u'B14', u'B15', u'B16', u'B17', u'B18', u'B19', u'B1A', u'B1B', u'B1C', u'B1D', u'B1E', u'B1F', u'B20', u'B21', u'B22', u'B23', u'B24', u'B25', u'B26', u'B27', u'B28', u'B29', u'B2A', u'B2B', u'B2C', u'B2D', u'B2E', u'B2F', u'B30', u'B31', u'B32', u'B33', u'B34', u'B35', u'B36', u'B37', u'B38', u'B39', u'B3A', u'B3B', u'B3C', u'B3D', u'B3E', u'B3F', u'B40', u'B41', u'B42', u'B43', u'B44', u'B45', u'B46', u'B47', u'B48', u'B49', u'B4A', u'B4B', u'B4C', u'B4D', u'B4E', u'B4F', u'B50', u'B51', u'B52', u'B53', u'B54', u'B55', u'B56', u'B57', u'B58', u'B59', u'B5A', u'B5B', u'B5C', u'B5D', u'B5E', u'B5F', u'B60', u'B61', u'B62', u'B63', u'B64', u'B65', u'B66', u'B67', u'B68', u'B69', u'B6A', u'B6B', u'B6C', u'B6D', u'B6E', u'B6F', u'B70', u'B71', u'B72', u'B73', u'B74', u'B75', u'B76', u'B77', u'B78', u'B79', u'B7A', u'B7B', u'B7C', u'B7D', u'B7E', u'B7F', u'B80', u'B81', u'B82', u'B83', u'B84', u'B85', u'B86', u'B87', u'B88', u'B89', u'B8A', u'B8B', u'B8C', u'B8D', u'B8E', u'B8F', u'B90', u'B91', u'B92', u'B93', u'B94', u'B95', u'B96', u'B97', u'B98', u'B99', u'B9A', u'B9B', u'B9C', u'B9D', u'B9E', u'B9E', u'AC0', u'AC1', u'AC2', u'AC3', u'AC4', u'AC5', u'AC6', u'AC7', u'AC8', u'AC9', u'ACA', u'ACB', u'ACC', u'ACD', u'ACE', u'ACF', u'AD0', u'AD1', u'AD2', u'AD3', u'AD4', u'AD5', u'AD6', u'AD7', u'AD8', u'AD9', u'ADA', u'ADB', u'ADC', u'ADD', u'ADE', u'ADF', u'AE0', u'AE1', u'AE2', u'AE3', u'AE4', u'AE5', u'AE6', u'AE7', u'AE8', u'AE9', u'AEA', u'AEB', u'AEC', u'AED', u'AEE', u'AEF', u'AF0', u'AF1', u'AF2', u'AF3', u'AF4', u'AF5', u'AF6', u'AF7', u'AF8', u'AF9', u'AFA', u'AFB', u'AFC', u'AFD', u'AFE', u'AFF', u'B00', u'B01', u'B02', u'B03', u'B04', u'B05', u'B06', u'B07', u'B08', u'B09', u'B0A', u'B0B', u'B0C', u'B0D', u'B0E', u'B0F', u'B10', u'B11', u'B12', u'B13', u'B14', u'B15', u'B16', u'B17', u'B18', u'B19', u'B1A', u'B1B', u'B1C', u'B1D', u'B1E', u'B1F', u'B20', u'B21', u'B22', u'B23', u'B24', u'B25', u'B26', u'B27', u'B28', u'B29', u'B2A', u'B2B', u'B2C', u'B2D', u'B2E', u'B2F', u'B30', u'B31', u'B32', u'B33', u'B34', u'B35', u'B36', u'B37', u'B38', u'B39', u'B3A', u'B3B', u'B3C', u'B3D', u'B3E', u'B3F', u'B40', u'B41', u'B42', u'B43', u'B44', u'B45', u'B46', u'B47', u'B48', u'B49', u'B4A', u'B4B', u'B4C', u'B4D', u'B4E', u'B4F', u'B50', u'B51', u'B52', u'B53', u'B54', u'B55', u'B56', u'B57', u'B58', u'B59', u'B5A', u'B5B', u'B5C', u'B5D', u'B5E', u'B5F', u'B60', u'B61', u'B62', u'B63', u'B64', u'B65', u'B66', u'B67', u'B68', u'B69', u'B6A', u'B6B', u'B6C', u'B6D', u'B6E', u'B6F', u'B70', u'B71', u'B72', u'B73', u'B74', u'B75', u'B76', u'B77', u'B78', u'B79', u'B7A', u'B7B', u'B7C', u'B7D', u'B7E', u'B7F', u'B80', u'B81', u'B82', u'B83', u'B84', u'B85', u'B86', u'B87', u'B88', u'B89', u'B8A', u'B8B', u'B8C', u'B8D', u'B8E', u'B8F', u'B90', u'B91', u'B92', u'B93', u'B94', u'B95', u'B96', u'B97', u'B98', u'B99', u'B9A', u'B9B', u'B9C', u'B9D', u'B9E']
+[u'AC0', u'AC1', u'AC2', u'AC3', ...]
 
 >>> hangul.column
 [u'0', u'1', u'2', u'3', u'4', u'5', u'6', u'7', u'8', u'9', u'A', u'B', u'C', u'D', u'E', u'F']
 
 >>> hangul.total
 [u'\uac00', u'\uac01', u'\uac02', u'\uac03', u'\uac04', u'\uac05', u'\uac06', u'\uac07', u'\uac08', u'\uac09', ...]
+
+>>> for key in hangul.total:
+...     print key
+...
+가
+각
+갂
+갃
+..
 ```
 
 ```
 >>> len(hangul.total)
-7152
+11172
 ```
